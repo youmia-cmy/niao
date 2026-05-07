@@ -49,6 +49,7 @@ body{font-family:'Noto Sans SC',sans-serif;background:var(--bg);color:var(--text
 .hero-title{font-family:'Orbitron',monospace;font-size:clamp(4rem,12vw,10rem);font-weight:900;line-height:.9;letter-spacing:8px;background:linear-gradient(135deg,var(--gold-light) 0%,var(--gold) 40%,var(--gold-dark) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:fadeInUp .8s ease;filter:drop-shadow(0 0 60px rgba(245,166,35,.3))}
 .hero-sub{font-family:'Press Start 2P',monospace;font-size:clamp(.6rem,1.5vw,.9rem);color:var(--text-dim);margin-top:1.5rem;letter-spacing:3px;animation:fadeInUp 1s ease}
 .hero-tagline{font-size:1.1rem;color:var(--text-dim);margin-top:1.5rem;max-width:500px;animation:fadeInUp 1.2s ease}
+.hero-highlight-msg{font-size:1.05rem;color:#FFD700;font-weight:700;margin-top:1.2rem;max-width:560px;text-align:center;line-height:1.8;letter-spacing:1px;text-shadow:0 0 12px rgba(255,215,0,.6),0 0 24px rgba(245,166,35,.4);animation:fadeInUp 1.4s ease}
 .hero-stats{display:flex;gap:3rem;margin-top:3rem;flex-wrap:wrap;justify-content:center;animation:fadeInUp 1.4s ease}
 .hero-stat{text-align:center}
 .hero-stat .val{font-family:'Orbitron',monospace;font-size:1.8rem;font-weight:900;color:var(--gold)}
@@ -325,6 +326,7 @@ section{position:relative;z-index:1;padding:6rem 2rem}
   <h1 class="hero-title">NIAO</h1>
   <p class="hero-sub">没 用 鸟</p>
   <p class="hero-tagline">鸟币精神 传递善意 人人都是善意的接力棒传递者 为每一个人传递一份善意</p>
+  <p class="hero-highlight-msg">如果你愿意把自己的一小部分NIAO 无偿送给更多人 无论认识或不认识的 任何人 你就是我们社区最有爱的鸟人</p>
   <div class="hero-stats">
     <div class="hero-stat"><div class="val" id="supplyCounter">2,100,000,000,000,000</div><div class="label">总供应量</div></div>
     <div class="hero-stat"><div class="val" id="holderCounter">103,746</div><div class="label">持有者</div></div>
@@ -853,6 +855,7 @@ function toggleLang() {
     '.nav-links a[href="#community"]': ['社群','Community'],
     '.hero-sub': ['没 用 鸟','USELESS BIRD'],
     '.hero-tagline': ['鸟币精神 传递善意 人人都是善意的接力棒传递者 为每一个人传递一份善意','NIAO Spirit: Spread Kindness \u2014 Everyone is a relay runner of goodwill, passing kindness to each and every person'],
+    '.hero-highlight-msg': ['如果你愿意把自己的一小部分NIAO 无偿送给更多人 无论认识或不认识的 任何人 你就是我们社区最有爱的鸟人','If you are willing to give a small portion of your NIAO freely to more people — whether you know them or not — you are the most loving bird person in our community'],
     '#origin .section-tag': ['// 起源故事','// ORIGIN STORY'],
     '#origin .section-title': ['NIAO 的诞生','The Birth of NIAO'],
     '#origin .origin-story-body > h3': ['NIAO 的起源故事','The Origin Story of NIAO'],
